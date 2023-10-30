@@ -146,3 +146,61 @@ body {
 .rodape__lista a:hover {color: var(--botao-azul);}
 
 .lista__link a:active {color: purple;}
+
+@media screen and (max-width: 768px) {
+
+    :root {
+        margin: 0;
+    }
+
+    .body {
+        margin: 0 0 0 4em;
+        padding: 0;
+    }
+
+    .container {
+        display: block;
+        background-image: none;
+        margin: 0;
+        height: 90vh;
+    }
+
+    .container__imagem {
+        width: 50vw;
+    }
+
+    .container__caixa {
+        margin: 2em 2em;
+    }
+
+    .secundario {
+        margin: 0;
+        text-align: center;
+        padding-bottom: 0em;
+    }
+
+    .secundario__imagem {
+        width: 50vw;
+        
+    }
+
+    .rodape__logo {
+        text-align: center;
+    }
+
+    .dispositivos__lista {
+        display: block;
+    }
+
+    .lista__item img {
+        width: 60vw;
+    }
+
+    .rodape__lista {
+        display: block;
+    }
+
+    .lista__link a {
+        margin: 0;
+    }
+}
